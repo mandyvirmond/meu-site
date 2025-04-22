@@ -2,10 +2,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Lemon&display=swap');
 
 :root {
-    --laranja-claro: #FF862A;
-    --alto-contraste-fundo: #000000;
-    --alto-contraste-texto: #ffffff;
-    --alto-contraste-link: #ffd700;
+    --laranja-claro: #141212;
+    --laranja-claro: #fc7676;
+
 }
 
 body {
@@ -14,7 +13,7 @@ body {
 }
 
 header {
-    background-color: #ffffff;
+    background-color: #fc7676;
 }
 
 
@@ -22,24 +21,30 @@ section {
     padding-bottom: 5rem;
 }
 
-
+.h1-img{
+color:#fc7676;
+}
 .nav-link {
-    color: #CB6D43;
-    font-weight: 600;
+    color: #2e2d2d;
+    font-weight: 500;
+    font-size: medium;
+    font-style: italic;;
 }
 
 .inicio-fundo {
     /* aula 3 */
-    background-image: url('img/4965007.jpg');
+    background-image: url('img/eu.jpg');
     /* Substitua pelo caminho da sua imagem */
     background-size: cover;
     background-position: right;
-    border-radius: 80px;
+    border-radius: 30px;
     width: 100%;
-    height: 606px;
-    padding: 40px;
+    height: 600px;
+    padding: 20px;
     margin: 0 auto;
 }
+
+
 
 /* posicionamento para a imagem à direita */
 .img-inicio {
@@ -113,7 +118,7 @@ h2 {
 }
 
 #contato {
-    background-image: url('img/4965007.jpg');
+    background-image: url('img/IMG_20240204_172242.jpg');
     background-size: cover;
     padding: 4rem 0;
     /* Espaçamento interno para a seção de contato */
@@ -132,7 +137,7 @@ h2 {
 }
 
 .formulario button {
-    background-color: #CB6D43;
+    background-color: #fc7676;
     border: none;
     font-weight: bold;
 }
